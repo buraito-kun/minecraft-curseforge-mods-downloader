@@ -1,13 +1,15 @@
 # A program to download Minecraft mods from CurseForge
 
-## How to get started
-### 1. Run the following command in terminal
+## How to install
+### 1. Run the following command in terminal to install
 ``` bash
-go mod tidy
-go build -o bin
+go install github.com/buraito-kun/minecraft-curseforge-mods-downloader@latest
 ```
 
-### 2. Add /bin folder to environment
+### 2. (optional) Try the following command to ensure it's working
+``` bash
+minecraft-curseforge-mods-downloader -help
+```
 <br>
 
 ## How to use
